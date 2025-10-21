@@ -10,3 +10,5 @@ scope = [
 
 
 credenciais_path = os.gentev("GOOGLE_APPLICATION_CREDENTIALS", "credenciais.json")
+
+credentials = ServiceAccountCredentials.from_service_account_file(credenciais_path)
