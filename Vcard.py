@@ -9,3 +9,4 @@ scope = [
 ]
 
 
+credenciais_path = os.gentev("GOOGLE_APPLICATION_CREDENTIALS", "credenciais.json")
